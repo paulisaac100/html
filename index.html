@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="paul oaikhena">
+    <title>MY WEB PAGE</title>
+    <link rel="icon" href="img/AU_icon_16.png">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <header>
+    <h1>HELLO WORLD</h1>
+    <nav>
+        <ul>
+            <li>
+            <a href="#html"> Learning Html</a>
+        </li>
+        <li>
+            <a href="#vacation">Planing a vacation</a>
+        </li>
+        <li>
+            <a href="#contact">Contact me</a>
+        </li>
+        </ul>
+    </nav>
+    <article>
+    <section id="html">
+    <hr>
+    <h2>i'm ready to learn html</h2>
+    <p>This is my first webpage</p>
+    <h3>MY DAILY SCHEDULE </h3>
+</body>
+    <Ol>
+    <li>.... i learn from home </li>
+    <li>... i learn from the gym </li>
+    <li>... i learn from people </li>
+    <li>.... i use resource from <abbr title="Mozila Developer network"><a href="shttps:facebook.com">mdn</a></abbr> </li>
+    <br>
+    <img src="img/htmls.png" alt="love html" title="easy peasy" width="300"
+    height="300">
+    <figure>
+        <figcaption>Learning Html</figcaption>
+    </figure>
+</Ol>
+<aside>
+    <details>
+        <summary>Guess the <mark>number of hours</mark>i code per day
+        </summary>
+        <p>i start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+    </details>
+</aside>
+<br>
+<table>
+    <caption>My daily schedule</caption>
+    <thead>
+    <tr>
+        <th>&nbsp;</th>
+        <th scope="col">Time</th>
+        <th scope="col">Activity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">morning</th>
+         <td>
+            <time datetime="08:00">8am
+            </time>-<time datetime="11:00">11am</time>
+         </td>
+         <td>write code</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Break</th>
+        <td>
+           <time datetime="11:00">11am
+           </time>-<time datetime="12:00">12pm</time>
+        </td>
+        <td>eat lunch</td>
+   </tr>
+   <tr>
+    <th scope="row">Afternoon</th>
+    <td>
+       <time datetime="12:00">12pm
+       </time>-<time datetime="17:00">5pm</time>
+    </td>
+    <td>study for other course</td>
+</tr>
+<tr>
+<th scope="row">Evening</th>
+    <td rowspan="2">ALL other times</td>
+    <td>free time</td>
+</tr>
+<tr>
+    <th>night</th>
+    <td>sleep</td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+    <td colspan="3"> and that what i do everyday, 5 days a week.just eat, sleep, code.. and recharge!</td>
+</tr>
+</tfoot>
+</table>
+</section>
+</header> 
+    <hr>
+    <main>
+    <section id="vacation">
+    <h2> I'm also planing a vacation</h2>
+    <ul>
+        <li>
+    <p>i've been working and really need a  <em>getaway</p>
+</li>
+<li>
+    <p>i live in   <abbr title="KANSAS city" >KS</abbr> i want to visit a beach</p>
+</li>
+    <h3>Places i'd like to visit </h3>
+    <li>
+
+     <p> have heard things about the Carribiean</p>
+     <li>
+     <p> have heard about things here :</p>
+     <address>124 Constant Spring Road, Kingston 10 ·925-
+    <br>
+    <br>
+    <img src="img/vac.jpg" alt="vacation" title="enjpyed myself here" width="300" height="300">
+    <figure>
+        <figurecaption>
+            Carribiean Beach
+        </figurecaption>
+    </figure>
+     </address>
+    </section>
+         <hr>
+     <footer>
+     <section>
+    </li>
+    <li>
+    <h3>places i'd like to avoid</h3>
+    <dt>EDO STATE</dt>
+    <DD> lot of bad boys in the area !</DD>
+    <dt>ESAN</dt>
+    <dd>lot of cute chicks</dd>
+    <br>
+    <img src="img/edos.jpg" alt="heartbeat of the nation" width="400" height="250"
+    title="my village">
+    <figure>
+        My Village
+    </figure>
+</li>
+<li>
+    <p>have heard a lot about there </p>
+</li>
+
+</ul>
+</section>
+</article>
+<hr>
+
+<article id="#Contact">
+    <h2>Contact Me</h2>
+    <P> i'd really like to hear from you!</P>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+        <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName"
+        placeholder="Jane"
+        autocomplete="on" required autofocus>
+    </p>
+    <p>
+        <label for="LastName">last Name:</label>
+        <input type="text" name="LastName" id="LastName"
+        placeholder="Doe"
+        autocomplete="on" required autofocus>
+    </p>
+    <p>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password"
+        placeholder="your secret"
+        autocomplete="on" required>
+        <p>
+        <label for="Phone">Phone:</label>
+        <input type="Phone" name="Phone" id="Phone"
+        placeholder="5555555555"
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+    </p>
+    <p>
+        <label for="decade">Favorite Decade:</label>
+        <input type="number" name="Decade" id="decade"
+        min="1950" max="2020" step="10" value="1980">
+    </p>
+    <p>
+        <label for="coffee">Favorite coffee</label>
+        <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees"> 
+            <option value="Regular coffee">Iced coffee</option>
+            <option value="latte">Latte</option>
+        </optgroup>
+        <optgroup label="Espresso Drinks">
+            <option value="cappuccino">cappuccino</option>
+            <option value="coetado">Cortado</option>
+        </optgroup>
+            <option value="americano" selected>Americano</option>
+            <option value="other">other</option>
+
+            </option>
+        
+        </select>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>what is your favorite food</legend>
+    <p>
+        <input type="radio" name="food" id="tacos" value="tacos">
+        <label for="tacos">Tacos</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="other" value="tacos">
+        <label for="other">Other</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Do you have pets?</legend>
+    <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">Dog</label>
+        <p>
+            <input type="checkbox" name="goat" id="goat" value="goat">
+            <label for="goat">Goat</label>
+        </p>
+        <p>
+            <input type="checkbox" name="cat" id="cat" value="cat">
+            <label for="cat">Cat</label>
+        </p>
+        <p>
+            <input type="checkbox" name="other" id="other" value="other">
+            <label for="other">Other</label>
+        </p>
+    </p>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>Send Me A Note</legend>
+    <label for="message"> Your Message:</label>
+    <br>
+    <textarea name="message" id="message" cols="30"
+    rows="10" placeholder="Type Your Message here">
+</textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+    </form>
+
+</article>
+
+</main>
+
+ <hr>
+ <footer?>
+&1t;&1t;&1t; &copy;<a href="about.html">OAIKHENA Paul</a> &gt;&gt;&gt;
+<br>
+<p>
+    <a href="#">back to the top</a>
+</p>
+</footer>
+<br>
+</head>
+<body>
+    
+</body>
+</html>
